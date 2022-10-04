@@ -1,0 +1,39 @@
+header {
+    display: flex;
+    justify-content: center;
+    animation-name: right;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 5rem;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    color: blueviolet;
+
+}
+
+
+
+@keyframes right {
+    from {
+        top: 0px;
+    }
+
+    to {
+        top: 400px;
+    }
+}
